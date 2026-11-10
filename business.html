@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Business</title>
+  <meta name="description" content="Small-business website built with Portfy Templates by EasyLife Solutions" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" id="brand"></a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why us</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">◐</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow" id="eyebrow"></p>
+      <h1 id="headline"></h1>
+      <p class="tagline" id="tagline"></p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#contact">Start a project</a>
+        <a class="btn" href="#work">See the work</a>
+      </div>
+      <ul class="chips" id="niches"></ul>
+    </section>
+
+    <section id="work" class="section">
+      <h2>Selected work</h2>
+      <div class="grid" id="work-list"></div>
+    </section>
+
+    <section id="services" class="section">
+      <h2>What we build</h2>
+      <div class="grid" id="services-list"></div>
+    </section>
+
+    <section id="why" class="section">
+      <h2>Why work with us</h2>
+      <div class="grid" id="why-list"></div>
+    </section>
+
+    <section id="process" class="section">
+      <h2>How it works</h2>
+      <ol class="steps" id="steps-list"></ol>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Start your project</h2>
+      <p>Tell us what you need: your niche, budget and timeline.</p>
+      <form class="contact-form" id="contactForm">
+        <label>Name <input name="name" required /></label>
+        <label>Email <input name="email" type="email" required /></label>
+        <label>Phone (optional) <input name="phone" type="tel" /></label>
+        <label>What do you need? <textarea name="message" rows="4" required></textarea></label>
+        <button class="btn primary" type="submit">Send enquiry</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built with <a href="https://portfolio.easylife.solutions" target="_blank" rel="noopener">Portfy</a> · Open source under the MIT License</p>
+  </footer>
+
+  <script src="business-profile.js"></script>
+  <script src="business.js"></script>
+</body>
+</html>
